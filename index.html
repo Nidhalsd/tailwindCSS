@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIDHAL Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-2k5JQ+v4QzOsA0yos1Dzg+q0U+HfJmRWaWtav4fE3d/5xOWo6GIB4b9xAd2uhM1f" crossorigin="anonymous"/>
+
+</head>
+<body>
+
+  <!-- this is the Header Section -->
+  <header class="bg-blue-300">
+    <div class="container mx-auto flex justify-between items-center py-4 px-4">
+      <h1 class="text-xl font-bold">NIDHAL SAIDI</h1>
+      <nav class="flex space-x-4 text-black-900">
+          <a href="#" class="hover:text-gray-500">Home</a>
+          <a href="#" class="hover:text-gray-500">Projects</a>
+          <a href="#" class="hover:text-gray-500">Contact</a>   
+      </nav>
+    </div>
+  </header>
+
+  <!-- this is the Hero Section -->
+  <section class="text-black-500 bg-cover bg-center py-20" style="background-image: url(back.jpg);">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold">Hello, I'm NIDHAL</h1><br>
+      <p class="text-lg">Nidhal Saidi, a web developer, is a visionary in the digital realm, blending technical expertise with creative ingenuity to craft immersive online experiences</p>
+    </div>
+  </section>
+
+  <!-- this is the Skills Section -->
+  <section class="container mx-auto px-4 py-16 bg-blue-300">
+      <h2 class="text-2xl font-bold mb-8">Skills</h2>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-gray-100 p-6 text-xl font-bold">HTML</div>
+        <div class="bg-gray-100 p-6 text-xl font-bold">CSS</div>
+        <div class="bg-gray-100 p-6 text-xl font-bold">JavaScript</div>
+      </div>    
+  </section>
+
+  <!-- this is the Projects Section -->
+  <section class="container mx-auto px-4 py-16 bg-blue-300">   
+      <h2 class="text-2xl font-bold mb-8">Projects</h2>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-gray-100 p-6 ">
+          <img src="e-comerce.jpg" class="bg-cover bg-center mb-4">
+          <h3 class="text-xl font-bold">E-commerce</h3>
+          <p class="mt-4">My first project about the e-commerce</p>
+        </div>
+        <div class="bg-gray-100 p-6 ">
+          <img src="e-comerce.jpg" alt="Project 1" class="bg-cover bg-center mb-4">
+          <h3 class="text-xl font-bold">Vente online</h3>
+          <p class="mt-4">My second project about the vente onlien</p>
+        </div>
+        <div class="bg-gray-100 p-6 ">
+          <img src="e-comerce.jpg" alt="Project 1" class="bg-cover bg-center mb-4">
+          <h3 class="text-xl font-bold">Decoration</h3>
+          <p class="mt-4">My third project about the decoration</p>
+        </div>
+      </div> 
+  </section>
+
+  <!-- this is the Contact Section -->
+  <section class="container mx-auto px-4 py-16 bg-blue-300">
+      <h2 class="text-2xl font-bold mb-8">Contact</h2>
+      <form>
+        <div class="mb-4">
+          <label for="name" class="block text-black-900">Name</label>
+          <input type="text" id="name" name="name" class="w-full border-gray-300 px-4 py-2">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-black-900">Email</label>
+          <input type="email" id="email" name="email" class="w-full border-gray-300 px-4 py-2">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-black-900">Message</label>
+          <textarea id="message" name="message" rows="4" class="w-full border-gray-300 px-4 py-2"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">Send Message</button>
+      </form>
+  </section>
+
+  <!-- this is the Footer -->
+  <footer class="bg-white text-black-900 py-8 ">
+    <div class="container mx-auto px-4 flex justify-center items-center">
+      <div>
+        <span class="text-xl mr-4"><i class="fab fa-twitter"></i></span>
+        <span class="text-xl mr-4"><i class="fab fa-facebook"></i></span>
+        <span class="text-xl mr-4"><i class="fab fa-linkedin"></i></span>
+      </div>
+      <p>&copy; 2024 NIDHAL SAIDI. All rights reserved.</p>
+     </div>
+  </footer>
+
+</body>
+</html>
